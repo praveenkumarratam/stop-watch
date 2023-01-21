@@ -1,0 +1,71 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+body{
+    background-color: teal;
+    font-family: cursive;
+}
+.top_handing{
+    text-align: center;
+    color: #fff;
+}
+.box_watch{
+    text-align: center;
+}
+#hr_box{
+    padding: 10px;
+    color:red;
+    font-size: 2rem;
+}
+#min_box{
+    padding: 10px;
+    color: yellow;
+    font-size: 2rem;
+}
+#sec_box{
+    padding: 10px;
+    color: green;
+    font-size: 2rem;
+}
+#count_box{
+    padding: 10px;
+    color: gray;
+    font-size: 2rem;
+}
+.controller{
+    text-align: center;
+    border-top: 3px solid blue;
+}
+.start{
+    font-size: 20px;
+    border: none;
+    background-color: green;
+    width: 5rem;
+    color: #fff;
+    margin: 10px;
+}
+.start:hover{
+    background-color: #000;
+}
+.stop{
+    font-size: 20px;
+    border: none;
+    background-color: red;
+    width: 5rem;
+    color: #fff;
+    margin: 10px;
+}
+.stop:hover{
+    background-color: #000;
+}
+.restart{
+    font-size: 20px;
+    border: none;
+    background-color: yellow;
+    width: 5rem;
+    color: #fff;
+    margin: 10px;
+}
+.restart:hover{
+    background-color: #000;
+}
